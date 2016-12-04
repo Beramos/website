@@ -8,7 +8,18 @@
 */
 
 /* Basic */
+    .CVTitle {
+        text-align: justify;
+        color: #B2D94F !important;
+    }
 
+    .leftBar {
+        text-align: right;
+    }
+
+    .headerName {
+        text-align: left;
+    }
 	body {
 		background: #fff;
 	}
@@ -993,7 +1004,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 5em 0 3em 0;
+		padding: 1em 0 3em 0;
 	}
 
 		.wrapper.style1 {
@@ -1236,7 +1247,7 @@
 		background-repeat: repeat,						no-repeat;
 		background-size: auto,						cover;
 		color: #d1d2d4;
-		padding: 16em 0;
+		padding: 0em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -1299,6 +1310,83 @@
 	body.is-loading #banner:after {
 		opacity: 1.0;
 	}
+
+/* BannerCV */
+
+	#bannerCV {
+		background-attachment: scroll,						fixed;
+		background-color: #494d53;
+		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		background-position: top left,					center center;
+		background-repeat: repeat,						no-repeat;
+		background-size: auto,						cover;
+		color: #d1d2d4;
+		padding: 0em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		#bannerCV:after {
+			-moz-transition: opacity 2s ease-in-out;
+			-webkit-transition: opacity 2s ease-in-out;
+			-o-transition: opacity 2s ease-in-out;
+			-ms-transition: opacity 2s ease-in-out;
+			transition: opacity 2s ease-in-out;
+			background: #3d4045;
+			content: '';
+			height: 100%;
+			left: 0;
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+		}
+
+		#bannerCV :last-child {
+			margin-bottom: 0;
+		}
+
+        #bannerCV h1, #bannerCV h2, #bannerCV h3, #bannerCV h4, #bannerCV h5, #bannerCV h6 {
+			color: #ffffff;
+		}
+
+		#banner .inner {
+			position: relative;
+			z-index: 2;
+		}
+
+		#banner .button {
+			border-color: white !important;
+			color: #ffffff !important;
+		}
+
+			#banner .button:hover {
+				background-color: rgba(255, 255, 255, 0.075);
+			}
+
+			#banner .button:active {
+				background-color: rgba(255, 255, 255, 0.2);
+			}
+
+
+		#bannerCV h2 {
+			font-size: 3.25em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+		#bannerCV p {
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+		}
+
+	body.is-loading #banner:after {
+		opacity: 1.0;
+	}
+
+
 
 /* One */
 
