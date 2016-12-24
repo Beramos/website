@@ -8,6 +8,22 @@
 */
 
 /* Basic */
+    html{
+        background: #f0f0f0 url(../images/extra_clean_paper.png);
+    }
+
+    .entry{
+        margin: 0 0 1em 0;
+    }
+
+    .location{
+        text-align: right;
+        font-size: 9pt;
+    }
+    .rightbar{
+        padding-right: 30px !important;
+    }
+
     .CVTitle {
         text-align: justify;
         color: #B2D94F !important;
@@ -22,6 +38,8 @@
     }
 	body {
 		background: #fff;
+        max-width: 880px;
+        margin: 0 auto;
 	}
 
 		body.is-loading * {
@@ -72,7 +90,7 @@
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0.2em 0 !important;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1050,6 +1068,9 @@
 
 	#skel-layers-wrapper {
 		padding-top: 3em;
+        max-width: 1100px;
+        margin: 0 auto;
+        box-shadow: 0 0 60px #666666;
 	}
 
 	body.landing #skel-layers-wrapper {
@@ -1071,7 +1092,7 @@
 		line-height: 3em;
 		position: fixed;
 		top: 0;
-		width: 100%;
+		width: 80%;
 		z-index: 10000;
 	}
 
@@ -1324,6 +1345,7 @@
 		padding: 0em 0;
 		position: relative;
 		text-align: center;
+        height: 200px;
 	}
 
 		#bannerCV:after {
