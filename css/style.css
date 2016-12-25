@@ -12,7 +12,12 @@
     }
 
     #firstHeader{
-        margin-top: 4.4px;
+        margin-top: 4.4px !important;
+    }
+
+    .headerRight {
+        font-weight: bold;
+        color: #545454;
     }
 
     .headerRight span{
@@ -20,7 +25,7 @@
     }
 
     .entry{
-        margin: 0 0 1em 0;
+        margin: 0 0 0.8em 0;
     }
 
     .location{
@@ -37,6 +42,20 @@
         font-family: "Lato-Hairline";
     }
 
+    .nameBanner span{
+        font-family: "Lato-Hairline";
+    }
+
+    .keywords span {
+        color: #545454;
+		font-weight: 700;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+		letter-spacing: -0.01em;
+        font-size: 1.1em;
+		line-height: 1.5em;
+    }
+
     .leftBar {
         text-align: right;
     }
@@ -45,7 +64,16 @@
         text-align: left;
         padding-top: 30px !important;
     }
-	body {
+
+    .HeaderName p{
+        text-align: center !important;
+    }
+
+    .categoryLeft{
+        margin-bottom: 1em;   
+    }
+
+    body {
 		background: #fff;
         max-width: 880px;
         margin: 0 auto;
@@ -99,7 +127,7 @@
 	}
 
 	p {
-		margin: 0 0 0.2em 0 !important;
+		margin: 0 0 0 0 !important;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -126,6 +154,8 @@
 	}
 
 	h4 {
+        margin-top: 1em;
+        margin-bottom: 0.1em !important;
 		font-size: 1.1em;
 		line-height: 1.5em;
 	}
@@ -1031,7 +1061,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 1em 0 3em 0;
+		padding: 1em 0 1em 0;
 	}
 
 		.wrapper.style1 {
