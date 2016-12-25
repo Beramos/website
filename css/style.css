@@ -8,8 +8,21 @@
 */
 
 /* Basic */
+    @font-face {
+        font-family: 'Lato-Hairline'; /*a name to be used later*/
+        src: url(../fonts/Lato-Hairline.ttf'); /*URL to font*/
+    }
+
     html{
         background: #f0f0f0 url(../images/extra_clean_paper.png);
+    }
+
+    #firstHeader{
+        margin-top: 4.4px;
+    }
+
+    .headerRight span{
+        color: #B2D94F;
     }
 
     .entry{
@@ -33,8 +46,9 @@
         text-align: right;
     }
 
-    .headerName {
+    .HeaderName {
         text-align: left;
+        padding-top: 30px !important;
     }
 	body {
 		background: #fff;
@@ -1345,25 +1359,8 @@
 		padding: 0em 0;
 		position: relative;
 		text-align: center;
-        height: 200px;
+        height: 180px;
 	}
-
-		#bannerCV:after {
-			-moz-transition: opacity 2s ease-in-out;
-			-webkit-transition: opacity 2s ease-in-out;
-			-o-transition: opacity 2s ease-in-out;
-			-ms-transition: opacity 2s ease-in-out;
-			transition: opacity 2s ease-in-out;
-			background: #3d4045;
-			content: '';
-			height: 100%;
-			left: 0;
-			opacity: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-			z-index: 1;
-		}
 
 		#bannerCV :last-child {
 			margin-bottom: 0;
