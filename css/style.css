@@ -11,6 +11,10 @@
         background: #f0f0f0 url(../images/extra_clean_paper.png);
     }
 
+    .footerLine{
+        color: #545454;
+    }
+
     #firstHeader{
         margin-top: 4.4px !important;
     }
@@ -1494,7 +1498,7 @@
 
 	#footer {
 		color: #949494;
-		padding: 4em 0;
+		padding: 1em 0;
 		text-align: center;
 	}
 
