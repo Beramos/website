@@ -1,16 +1,10 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Lato:300,700");
 
-/*
-	Drift by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
-*/
-
 /* Basic */
     @font-face {
-        font-family: 'Lato-Hairline'; /*a name to be used later*/
-        src: url(../fonts/Lato-Hairline.ttf'); /*URL to font*/
+        font-family: 'Lato-Hairline'; 
+        src: url('../fonts/Lato-Light.ttf'); 
     }
 
     html{
@@ -40,6 +34,7 @@
     .CVTitle {
         text-align: justify;
         color: #B2D94F !important;
+        font-family: "Lato-Hairline";
     }
 
     .leftBar {
