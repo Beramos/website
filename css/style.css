@@ -56,6 +56,10 @@
         font-family: "Lato-Hairline";
     }
 
+    .nameBanner{
+        text-align: center;
+    }
+
     .nameBanner span{
         font-family: "Lato-Hairline";
     }
