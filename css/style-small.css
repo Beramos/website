@@ -6,6 +6,10 @@
 
 /* Basic */
 
+    .HeaderName{
+        padding-left: 15px;
+    }
+
 	body, input, select, textarea {
 		font-size: 12pt;
 	}
