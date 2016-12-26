@@ -6,6 +6,10 @@
 
 /* Basic */
 
+    #skel-layers-wrapper{
+        margin: 0 auto 0 auto;
+    }
+
     .HeaderName{
         padding-left: 15px;
     }

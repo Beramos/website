@@ -1,11 +1,11 @@
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Lato:300,700");
+@font-face {
+    font-family: 'Lato-Hairline'; 
+    src: url('../fonts/Lato-Light.ttf'); 
+}
 
 /* Basic */
-    @font-face {
-        font-family: 'Lato-Hairline'; 
-        src: url('../fonts/Lato-Light.ttf'); 
-    }
 
     html{
         background: #f0f0f0 url(../images/extra_clean_paper.png);
