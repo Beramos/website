@@ -15,6 +15,8 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+        <script src="js/ownJS.js"></script>
+        
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -37,7 +39,6 @@
 				</div>
 			</section>
 
-		<!-- One -->
 			<section id="keywords" class="keywords wrapper style1">
 				<div class="row">
                     <div class="col-sm-3"></div>
@@ -46,7 +47,15 @@
                     </div>
                 </div>
             </section>
-                
+
+            <section class="wrapper style1">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            </section>
+            
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            </div>
+
             <section id="CVBody" class="wrapper style1">
                 <div class="row">
                     <div class="col-sm-3 leftBar">

@@ -140,6 +140,7 @@
 		box-shadow: 0.5em 0 2em 0 rgba(0, 0, 0, 0.1);
 		padding: 0.5em 1.5em;
         top: 280px !important;
+        background: #f2f2f2 !important;
 	}
 
 		#navPanel .link {
