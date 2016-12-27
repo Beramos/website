@@ -3,6 +3,10 @@
     #skel-layers-wrapper{
         margin: 0 auto 0 auto;
     }
+    
+    .categoryRight {
+        
+    }
 
     .HeaderName{
         padding-left: 15px;
@@ -167,3 +171,8 @@
         border-style: none;
     }
     
+/*line breaking */
+
+.rwd-break{
+    display: block;
+}

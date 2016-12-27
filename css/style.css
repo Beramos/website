@@ -1555,3 +1555,9 @@
         height: 0;
         z-index: 2;
     }
+
+/* line breaking */
+
+    .rwd-break{
+        display: none;
+    }
