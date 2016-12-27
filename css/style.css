@@ -1550,3 +1550,8 @@
 		#footer .copyright {
 			font-size: 0.8em;
 		}
+/* Sidebar */
+    .openSideBar {
+        height: 0;
+        z-index: 2;
+    }

@@ -1,8 +1,3 @@
-/*
-	Drift by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
-*/
 
 (function($) {
 
@@ -23,31 +18,6 @@
 					config: {
 						transformTest: function() { return skel.vars.isMobile; }
 					},
-				
-				// Navigation Button.
-					navButton: {
-						breakpoints: 'medium',
-						height: '4em',
-						html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
-						position: 'top-left',
-						side: 'top',
-						width: '6em'
-					},
-
-				// Navigation Panel.
-					navPanel: {
-						animation: 'overlayX',
-						breakpoints: 'medium',
-						clickToHide: true,
-						height: '100%',
-						hidden: true,
-						html: '<div data-action="navList" data-args="nav"></div>',
-						orientation: 'vertical',
-						position: 'top-left',
-						side: 'left',
-						width: 250
-					}
-
 			}
 		}
 	});
@@ -117,10 +87,6 @@
 			
 			}
 			
-		// Dropdowns.
-			$('#nav > ul').dropotron({
-				alignment: 'right'
-			});
 			
 		// Slider.
 			var $sliders = $('.slider');
