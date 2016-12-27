@@ -5,6 +5,27 @@
 */
 
 /* Basic */
+    #bannerCV {
+        height: 150px;
+    }
+
+    #bannerCV h2{
+        font-size: 2em;
+    }
+
+    .nameBanner{
+        font-size: 1.25em !important;
+    }
+    
+    #bannerCV p {
+        font-size: 0.75em !important;
+    }
+
+    .name{
+        text-align: right;
+        padding-left: 160px !important;
+        padding-top: 20px !important;
+    }
 
 	html, body {
 		min-width: 320px;
