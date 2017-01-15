@@ -5,6 +5,10 @@
 */
 
 /* Basic */
+    .smallEntry{
+        padding-right: 10px;
+    }
+    
     #bannerCV {
         height: 150px;
     }
