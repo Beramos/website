@@ -41,7 +41,7 @@ $(document).ready(function() {
             left    : 0,
             zIndex  : 99,
             background : '#f2f2f2'
-        });
+        }); 
         
         $(this).next().slideDown(600);  
         
@@ -79,6 +79,7 @@ $(document).ready(function() {
             $(this).remove();
             $('#overlay').remove();
             $('.additionInfo').slideUp(600);
+            $('.hoverAction').removeAttr('style');
          })
     });
 });
