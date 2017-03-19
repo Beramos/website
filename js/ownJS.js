@@ -45,13 +45,13 @@ $(document).ready(function() {
         
         $(this).next().slideDown(600);  
         
-        var w = $(document).width();
-        var h = $(document).height();
+        var w = $(window).width();
+        var h = $(window).height();
         var $overlay = $('<div/>', {
           'id': 'overlay',
            css: {
                position   : 'absolute',
-               height     : h + 'px',
+               height     : h + 1000 + 'px',
                width      : w + 'px',
                left       : 0,
                top        : 0,
@@ -65,7 +65,7 @@ $(document).ready(function() {
           'id': 'topOverlay',
            css: {
                position   : 'absolute',
-               height     : h + 'px',
+               height     : h + 1000 + 'px',
                width      : w + 'px',
                left       : 0,
                top        : 0,
