@@ -1602,4 +1602,10 @@
 }
 .additionInfo {
     display: none;
+    border-left: 1px solid;
+    border-color: #B2D94F;
+}
+
+.additionInfo ul {
+    list-style: none;
 }

@@ -24,6 +24,15 @@ $(document).ready(function() {
       function() { $(this).addClass("Hover"); 
                  }, function() {
                      $(this).removeClass("Hover");
-                 }
-       );
+      });
+  $(".hoverAction").click(
+    function(){
+        if ($(this).next().is(":visible")) {
+          $(this).next().slideUp(600);  
+        } 
+
+        else { 
+          $(this).next().slideDown(600);
+        }
+    });
 });
