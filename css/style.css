@@ -1608,5 +1608,20 @@
 }
 
 .additionInfo li {
-    padding-bottom: 2px;
+    padding-bottom: 3px;
+}
+
+.additionInfo ul {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.additionHeader {
+    display: inline-block;
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+#CCIP {
+    font-size: 9pt;
+    color: #999999;
 }
