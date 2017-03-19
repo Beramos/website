@@ -32,7 +32,8 @@ $(document).ready(function() {
             top     : 0,
             left    : 0,
             zIndex  : 99,
-            background : '#f2f2f2'
+            background : '#f2f2f2',
+            'padding-top' : '20px' 
         });
         
         $('.additionInfo').css({
