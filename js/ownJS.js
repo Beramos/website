@@ -20,7 +20,7 @@ function closeNav() {
 /* JQuery */
 
 $(document).ready(function() {
-  $("educationEntry").hover(
+  $(".educationEntry").hover(
         function() { $(this).addClass("Hover"); },
         function() { $(this).removeClass("Hover"); }
   );
