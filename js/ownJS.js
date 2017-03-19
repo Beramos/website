@@ -20,8 +20,12 @@ function closeNav() {
 /* JQuery */
 
 $(document).ready(function() {
-  $(".educationEntry").hover(
-        function() { $(this).addClass("Hover"); },
-        function() { $(this).removeClass("Hover"); }
-  );
+  $(".hoverAction").hover(
+      function() { $(this).addClass("Hover"); 
+                   $(this).next().height("20px");
+                 }, function() {
+                     $(this).removeClass("Hover");
+                     $(this).next().height("0px");
+                 }
+       );
 });
