@@ -22,10 +22,8 @@ function closeNav() {
 $(document).ready(function() {
   $(".hoverAction").hover(
       function() { $(this).addClass("Hover"); 
-                   $(this).next().height("20px");
                  }, function() {
                      $(this).removeClass("Hover");
-                     $(this).next().height("0px");
                  }
        );
 });
