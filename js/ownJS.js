@@ -16,3 +16,12 @@ function closeNav() {
     document.getElementById("mySidenav").style.borderStyle = "none";
 
 }
+
+/* JQuery */
+
+$(document).ready(function() {
+  $("educationEntry").hover(
+        function() { $(this).addClass("Hover"); },
+        function() { $(this).removeClass("Hover"); }
+  );
+});
