@@ -36,6 +36,8 @@ $(document).ready(function() {
             'padding-top' : '20px' 
         });
         
+        $(this).removeClass('Hover');
+        
         $('.additionInfo').css({
             position: 'relative',
             top     : 0,
