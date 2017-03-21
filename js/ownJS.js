@@ -25,7 +25,7 @@ $(document).ready(function() {
                  }, function() {
                      $(this).removeClass('Hover');
       });
-  $('.hoverAction').click(
+  $('.clickAction').click(
     function(){
         $(this).css({
             position: 'relative',
@@ -82,7 +82,7 @@ $(document).ready(function() {
             $(this).remove();
             $('#overlay').remove();
             $('.additionInfo').slideUp(600);
-            $('.hoverAction').removeAttr('style');
+            $('.clickAction').removeAttr('style');
          })
     });
 });
