@@ -1657,3 +1657,8 @@
 .description {
     text-align: justify;
 }
+
+.smallImage {
+    width: 220px;
+    height: auto;
+}
