@@ -1656,6 +1656,7 @@
 
 .description {
     text-align: justify;
+    padding-right: 10px;
 }
 
 .smallImage {
@@ -1664,3 +1665,7 @@
 }
 
 
+
+.bottomline {
+    padding-top: 40px;
+}
