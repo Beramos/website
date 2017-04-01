@@ -128,7 +128,7 @@
     }
 
     .keywords {
-        padding: 1em 1em 1em 1em !important; 
+        padding: 0em 1em 1em 0em !important; 
     }
 
     .keywords span {
@@ -1644,4 +1644,12 @@
     -ms-transition: padding-top 0.5s ease;
     transition: padding-top 0.5s ease;
     
+}
+
+.smallContainer {
+    padding-right: 5px;
+}
+
+#keywords {
+    padding-left: 1em;
 }
