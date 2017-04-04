@@ -103,6 +103,7 @@
         text-align: right;
         font-size: 9pt;
         color: #999999;
+		padding-right: 5px;
     }
 
     .leftBar {
@@ -144,11 +145,12 @@
 
     .HeaderName {
         text-align: left;
-        padding-top: 30px !important;
+        padding-top: 30px;
+		padding-left: 15px;
     }
 
     .HeaderName p{
-        text-align: center !important;
+        text-align: center;
     }
 
     .categoryLeft{
@@ -1496,7 +1498,7 @@
 
 
 		#bannerCV h2 {
-			font-size: 3.25em;
+			font-size: 300%;
 			line-height: 1.25em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
@@ -1605,6 +1607,7 @@
     border-left: 1px solid;
     border-color: #B2D94F;
     padding-top: 10px;
+	padding-right: 10px;
 }
 
 .additionInfo li {
