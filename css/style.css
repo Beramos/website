@@ -1615,7 +1615,7 @@
     padding-left: 40px;
 }
 .additionHeader {
-    display: inline-block;
+    display: block;
     margin-bottom: 1px;
     font-weight: bold;
 }
