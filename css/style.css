@@ -128,7 +128,7 @@
     }
 
     .keywords {
-        padding: 0em 1em 1em 0em !important; 
+        padding: 0 0 0 0; 
     }
 
     .keywords span {
@@ -1658,7 +1658,7 @@
 }
 
 #keywords {
-    padding-left: 1em;
+    /*padding-left: 1em;*/
 }
 
 .description {
@@ -1679,4 +1679,8 @@
 
 .bottomLine {
     padding-top: 15px;
+}
+
+.no-margin {
+	margin: 0;
 }
