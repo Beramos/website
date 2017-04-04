@@ -128,7 +128,7 @@
     }
 
     .keywords {
-        padding: 0em 1em 1em 0em !important; 
+        padding: 1em 0em 0.5em 0em !important; 
     }
 
     .keywords span {
@@ -144,6 +144,7 @@
     .HeaderName {
         text-align: left;
         padding-top: 30px !important;
+        padding-bottom: 15px;
     }
 
     .HeaderName p{
@@ -1465,7 +1466,6 @@
 		padding: 0em 0;
 		position: relative;
 		text-align: center;
-        height: 180px;
 	}
 
 		#bannerCV :last-child {
