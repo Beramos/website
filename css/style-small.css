@@ -168,9 +168,8 @@
 
 /* SideBar button */
     .openSideBar {
-            height: auto;
-            position: absolute;
-            top: 265px;
+		display: inline-block;
+		height: auto;
     }
 
     .openSideBar span {

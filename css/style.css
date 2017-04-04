@@ -1585,7 +1585,7 @@
 		}
 /* Sidebar */
     .openSideBar {
-        height: 0;
+		display: none;
         z-index: 2;
     }
 
