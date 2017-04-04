@@ -37,7 +37,7 @@ $(document).ready(function() {
         
         var w = $(window).width();
         var h = $(window).height();
-        var $overlay = $('<div/>', {
+        var $overlay = $('<div></div>', {
           'id': 'overlay',
            css: {
                position   : 'absolute',
@@ -51,7 +51,7 @@ $(document).ready(function() {
           }
          }).appendTo('body');
         
-        var $topOverlay = $('<div/>', {
+        var $topOverlay = $('<div></div>', {
           'id': 'topOverlay',
            css: {
                position   : 'absolute',
