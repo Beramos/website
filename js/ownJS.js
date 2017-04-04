@@ -33,15 +33,21 @@ $(document).ready(function() {
         
         $('.additionInfo').addClass("clickHighlight"); 
         
-        $(this).next().slideDown(600);  
-        
-        var w = $(window).width();
-        var h = $(window).height();
+        var next = $(this).next();
+
+        // :NOTE: show/hide trick to calculate correct document width after animation is completed.
+        next.show();
+        var w = $(document).width();
+        var h = $(document).height();
+        next.hide();
+
+        next.slideDown(600);
+
         var $overlay = $('<div></div>', {
           'id': 'overlay',
            css: {
                position   : 'absolute',
-               height     : h + 1000 + 'px',
+               height     : h + 'px',
                width      : w + 'px',
                left       : 0,
                top        : 0,
@@ -55,7 +61,7 @@ $(document).ready(function() {
           'id': 'topOverlay',
            css: {
                position   : 'absolute',
-               height     : h + 1000 + 'px',
+               height     : h + 'px',
                width      : w + 'px',
                left       : 0,
                top        : 0,
