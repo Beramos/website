@@ -27,24 +27,11 @@ $(document).ready(function() {
       });
   $('.clickAction').click(
     function(){
-        $(this).css({
-            position: 'relative',
-            top     : 0,
-            left    : 0,
-            zIndex  : 99,
-            background : '#f2f2f2',
-            'padding-top' : '20px' 
-        });
+        $(this).addClass("clickHighlight");
         
         $(this).removeClass('Hover');
         
-        $('.additionInfo').css({
-            position: 'relative',
-            top     : 0,
-            left    : 0,
-            zIndex  : 99,
-            background : '#f2f2f2'
-        }); 
+        $('.additionInfo').addClass("clickHighlight"); 
         
         $(this).next().slideDown(600);  
         
@@ -82,7 +69,7 @@ $(document).ready(function() {
             $(this).remove();
             $('#overlay').remove();
             $('.additionInfo').slideUp(600);
-            $('.clickAction').removeAttr('style');
+            $('.clickAction').removeClass('clickHighlight');
          })
     });
 });

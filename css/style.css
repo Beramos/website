@@ -1645,6 +1645,14 @@
     
 }
 
+.clickHighlight {
+	position: relative;
+	top     : 0;
+	left    : 0;
+	z-index  : 99;
+	background-color: #f2f2f2;
+}
+
 .smallContainer {
     padding-right: 5px;
 }
