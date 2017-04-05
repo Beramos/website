@@ -5,6 +5,14 @@
     src: url('../fonts/Lato-Light.ttf'); 
 }
 
+p {
+    font-family: helvetica;
+    padding-bottom: 0;
+    padding-top: 0;
+    line-height: 20px;
+    
+}
+
 /* Warning boxes */
 .alert {
     padding: 20px;
