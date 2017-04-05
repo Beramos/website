@@ -1692,7 +1692,7 @@ div {
 }
 
 .bottomline {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .bottomLine {
@@ -1706,4 +1706,10 @@ div {
 
 #firstTitle {
     margin-top: 7px;
+}
+
+.descriptionIcons {
+    margin-bottom: 0px;
+    text-align: center;
+    z-index: 102;
 }
