@@ -6,11 +6,15 @@
 }
 
 p {
-    font-family: helvetica;
+    font-family: sans-serif;
     padding-bottom: 0;
     padding-top: 0;
     line-height: 20px;
     
+}
+
+div {
+    font-family: helvetica;
 }
 
 /* Warning boxes */
@@ -132,7 +136,7 @@ p {
 
     .nameBanner{
         text-align: center;
-        font-weight: 600;
+        font-weight: 500;
     }
 
 .nameBanner span{
@@ -144,11 +148,8 @@ p {
     }
 
     .keywords {
-<<<<<<< HEAD
-        padding: 1em 0em 0.5em 0em !important; 
-=======
-        padding: 0 0 0 0; 
->>>>>>> 6aee17e56db1f5db4e8864410e8ba00e50db9514
+        padding: 0 1.5 0 0; 
+
     }
 
     .keywords span {
@@ -163,13 +164,8 @@ p {
 
     .HeaderName {
         text-align: left;
-<<<<<<< HEAD
-        padding-top: 30px !important;
-        padding-bottom: 15px;
-=======
         padding-top: 30px;
 		padding-left: 15px;
->>>>>>> 6aee17e56db1f5db4e8864410e8ba00e50db9514
     }
 
     .HeaderName p{
