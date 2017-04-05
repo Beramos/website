@@ -1701,3 +1701,8 @@ div {
 .no-margin {
 	margin: 0;
 }
+
+
+#firstTitle {
+    margin-top: 7px;
+}
