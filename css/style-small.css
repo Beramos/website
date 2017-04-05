@@ -168,23 +168,21 @@
 
 /* SideBar button */
     .openSideBar {
-            height: auto;
-            position: absolute;
-            top: 265px;
+		display: inline-block;
+		height: auto;
     }
 
     .openSideBar span {
         background: rgba(103, 107, 113, 0.75);
+		padding:  0.4em;
         border-radius: 0.5em;
         color: #fff;
         content: '\f0c9';
         display: block;
         font-size: 18px;
-        height: 2.25em;
         left: 0.5em;
         line-height: 2.25em;
         text-align: center;
-        width: 3.5em;
         cursor:pointer;
     }
 

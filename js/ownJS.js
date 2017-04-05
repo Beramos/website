@@ -27,34 +27,27 @@ $(document).ready(function() {
       });
   $('.clickAction').click(
     function(){
-        $(this).css({
-            position: 'relative',
-            top     : 0,
-            left    : 0,
-            zIndex  : 99,
-            background : '#f2f2f2',
-            'padding-top' : '20px' 
-        });
+        $(this).addClass("clickHighlight");
         
         $(this).removeClass('Hover');
         
-        $('.additionInfo').css({
-            position: 'relative',
-            top     : 0,
-            left    : 0,
-            zIndex  : 99,
-            background : '#f2f2f2'
-        }); 
+        $('.additionInfo').addClass("clickHighlight"); 
         
-        $(this).next().slideDown(600);  
-        
-        var w = $(window).width();
-        var h = $(window).height();
-        var $overlay = $('<div/>', {
+        var next = $(this).next();
+
+        // :NOTE: show/hide trick to calculate correct document width after animation is completed.
+        next.show();
+        var w = $(document).width();
+        var h = $(document).height();
+        next.hide();
+
+        next.slideDown(600);
+
+        var $overlay = $('<div></div>', {
           'id': 'overlay',
            css: {
                position   : 'absolute',
-               height     : h + 1000 + 'px',
+               height     : h + 'px',
                width      : w + 'px',
                left       : 0,
                top        : 0,
@@ -64,11 +57,11 @@ $(document).ready(function() {
           }
          }).appendTo('body');
         
-        var $topOverlay = $('<div/>', {
+        var $topOverlay = $('<div></div>', {
           'id': 'topOverlay',
            css: {
                position   : 'absolute',
-               height     : h + 1000 + 'px',
+               height     : h + 'px',
                width      : w + 'px',
                left       : 0,
                top        : 0,
@@ -82,7 +75,7 @@ $(document).ready(function() {
             $(this).remove();
             $('#overlay').remove();
             $('.additionInfo').slideUp(600);
-            $('.clickAction').removeAttr('style');
+            $('.clickAction').removeClass('clickHighlight');
          })
     });
 });
