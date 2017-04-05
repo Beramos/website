@@ -8,6 +8,11 @@
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
@@ -20,16 +25,10 @@
 			<link rel="stylesheet" href="css/style-xlarge.css" />
             <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all" />
 		</noscript>
-        
-        <script>jQuery(function($) {$('.slider').sss();});</script>
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script>jQuery(function($) {$('.slider').sss();});</script>
+        
     </head>
-    
-    <div class="openSideBar">
-        <span onclick="openNav()">&#9776;</span>
-    </div>
      
 	<body class="landing">
         
@@ -40,10 +39,15 @@
                 <div class="col-lg-4 col-lg-offset-2 col-md-offset-1 col-md-6 name">
                    <h2 class="nameBanner"><span>Bram</span> De Jaegher</h2>
                    <p>Bioscience engineer</p>
+                   <br/>
                 </div>
             </div>
         </section>
-        
+
+        <div class="openSideBar">
+            <span onclick="openNav()"><!--&#9776;-->Interested? Get my Contact info!</span>
+        </div>
+
         <section id="warning" class="wrapper style1">
             <!-- Warning box -->
                 <div class="alert warning">
@@ -53,7 +57,7 @@
         </section>
         
         <section id="keywords" class="keywords wrapper style1">
-            <div class="row">
+            <div class="row no-margin">
                 <div class="col-sm-3"></div>
                 <div class="col-sm-9 keywords">
                     <span>Keywords:</span> mathematical modelling, process control, computational fluid dynamics, machine learning, optimisation, chemistry, bioprocess technology, problem solving 
@@ -301,13 +305,13 @@
                                     <p style="padding-top:5px;padding-bottom:15px"> A Poly(p-phenylene vinylene) solution was spincoated on glass plates. These plates were exposed to different surface treatments, e.g. UV radiation, high temperatures, solvent treatments,... Atomic-force microscopy images of the polymer surfaces were obtained and and a dataset of visual descriptors was constructed with local binary patterns, gray-level co-occurence matrices, Gabor filters and Fourier analysis. Supervised learning algorithms were used to construct a mathematical model able to predict the surface treatment based on these visual descriptors. </p>
                                     <div class="row" style="padding-bottom:0px;padding-top:10px;">
                                         <div class="col-sm-4" style="padding-bottom:15px;">
-                                            <img class="smallImage" src="images/KOHA.JPG">
+                                            <img class="img-responsive" src="images/KOHA.JPG">
                                         </div>
                                         <div class="col-sm-4">
-                                            <img class="smallImage" src="images/PlUVA.JPG">
+                                            <img class="img-responsive" src="images/PlUVA.JPG">
                                         </div>
                                          <div class="col-sm-4">
-                                            <img class="smallImage" src="images/PNotA.JPG">
+                                            <img class="img-responsive" src="images/PNotA.JPG">
                                         </div>
                                     </div>
                                     <p class="caption"><b>Left to right:</b> atomic-force microscopy images of the polymers exposed to a strong base, UV radiation and untreated. </p>

@@ -103,6 +103,7 @@
         text-align: right;
         font-size: 9pt;
         color: #999999;
+		padding-right: 5px;
     }
 
     .leftBar {
@@ -117,6 +118,7 @@
         text-align: justify;
         color: #B2D94F !important;
         font-family: "Lato-Hairline";
+		word-break: normal;
     }
 
     .nameBanner{
@@ -128,7 +130,11 @@
     }
 
     .keywords {
+<<<<<<< HEAD
         padding: 1em 0em 0.5em 0em !important; 
+=======
+        padding: 0 0 0 0; 
+>>>>>>> 6aee17e56db1f5db4e8864410e8ba00e50db9514
     }
 
     .keywords span {
@@ -143,12 +149,17 @@
 
     .HeaderName {
         text-align: left;
+<<<<<<< HEAD
         padding-top: 30px !important;
         padding-bottom: 15px;
+=======
+        padding-top: 30px;
+		padding-left: 15px;
+>>>>>>> 6aee17e56db1f5db4e8864410e8ba00e50db9514
     }
 
     .HeaderName p{
-        text-align: center !important;
+        text-align: center;
     }
 
     .categoryLeft{
@@ -1496,7 +1507,7 @@
 
 
 		#bannerCV h2 {
-			font-size: 3.25em;
+			font-size: 300%;
 			line-height: 1.25em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
@@ -1586,7 +1597,7 @@
 		}
 /* Sidebar */
     .openSideBar {
-        height: 0;
+		display: none;
         z-index: 2;
     }
 
@@ -1605,6 +1616,7 @@
     border-left: 1px solid;
     border-color: #B2D94F;
     padding-top: 10px;
+	padding-right: 10px;
 }
 
 .additionInfo li {
@@ -1616,7 +1628,7 @@
     padding-left: 40px;
 }
 .additionHeader {
-    display: inline-block;
+    display: block;
     margin-bottom: 1px;
     font-weight: bold;
 }
@@ -1646,13 +1658,20 @@
     
 }
 
+.clickHighlight {
+	position: relative;
+	top     : 0;
+	left    : 0;
+	z-index  : 99;
+	background-color: #f2f2f2;
+}
+
 .smallContainer {
     padding-right: 5px;
 }
 
 #keywords {
-    padding-left: 1em;
-    padding-top: 0px !important;
+    /*padding-left: 1em;*/
 }
 
 .description {
@@ -1660,17 +1679,14 @@
     padding-right: 10px;
 }
 
-.smallImage {
-    width: 220px;
-    height: auto;
-}
-
-
-
 .bottomline {
     padding-top: 40px;
 }
 
 .bottomLine {
     padding-top: 15px;
+}
+
+.no-margin {
+	margin: 0;
 }
