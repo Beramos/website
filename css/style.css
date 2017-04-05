@@ -124,7 +124,12 @@
 
     .nameBanner{
         text-align: center;
+        font-weight: 600;
     }
+
+.nameBanner span{
+    font-weight: 500;
+}
 
     .nameBanner span{
         font-family: "Lato-Hairline";
