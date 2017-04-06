@@ -57,7 +57,7 @@ $(document).ready(function() {
           }
          }).appendTo('body');
         
-        var $topOverlay = $('<div></div>', {
+      /*  var $topOverlay = $('<div></div>', {
           'id': 'topOverlay',
            css: {
                position   : 'absolute',
@@ -69,13 +69,31 @@ $(document).ready(function() {
                opacity    : 0,
                zIndex     : 100
           }
-         }).appendTo('body');
+         }).appendTo('body');*/
+
+         $(document).click( function () {
+            if(!$(event.target).closest('.clickHighlight').length) {
+                $(this).remove();
+                $('#overlay').remove();
+                $('.additionInfo').slideUp(600);
+                $('.clickAction').removeClass('clickHighlight');
+            };
+         })
          
-         $('#topOverlay').click( function () {
-            $(this).remove();
-            $('#overlay').remove();
-            $('.additionInfo').slideUp(600);
-            $('.clickAction').removeClass('clickHighlight');
+         $(document).keyup(function(e) {
+             if (e.keyCode == 27) {
+                $(this).remove();
+                $('#overlay').remove();
+                $('.additionInfo').slideUp(600);
+                $('.clickAction').removeClass('clickHighlight');
+             }
+         });
+         
+         $(document).keypress( function () {
+                $(this).remove();
+                $('#overlay').remove();
+                $('.additionInfo').slideUp(600);
+                $('.clickAction').removeClass('clickHighlight');
          })
     });
 });
