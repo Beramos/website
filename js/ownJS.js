@@ -27,52 +27,41 @@ $(document).ready(function() {
       });
   $('.clickAction').click(
     function(){
-        $(this).addClass("clickHighlight");
-        
-        $(this).removeClass('Hover');
-        
-        $('.additionInfo').addClass("clickHighlight"); 
-        
-        var next = $(this).next();
+        if (!$(this).hasClass("clickHighlight")){
+            $(this).addClass("clickHighlight");
 
-        // :NOTE: show/hide trick to calculate correct document width after animation is completed.
-        next.show();
-        var w = $(document).width();
-        var h = $(document).height();
-        next.hide();
+            $(this).removeClass('Hover');
 
-        next.slideDown(600);
+            $('.additionInfo').addClass("clickHighlight"); 
 
-        var $overlay = $('<div></div>', {
-          'id': 'overlay',
-           css: {
-               position   : 'absolute',
-               height     : h + 'px',
-               width      : w + 'px',
-               left       : 0,
-               top        : 0,
-               background : '#000',
-               opacity    : 0.5,
-               zIndex     : 98
-          }
-         }).appendTo('body');
-        
-      /*  var $topOverlay = $('<div></div>', {
-          'id': 'topOverlay',
-           css: {
-               position   : 'absolute',
-               height     : h + 'px',
-               width      : w + 'px',
-               left       : 0,
-               top        : 0,
-               background : '#000',
-               opacity    : 0,
-               zIndex     : 100
-          }
-         }).appendTo('body');*/
+            var next = $(this).next();
 
-         $(document).click( function () {
-            if(!$(event.target).closest('.clickHighlight').length) {
+            // :NOTE: show/hide trick to calculate correct document width after animation is completed.
+            next.show();
+            var w = $(document).width();
+            var h = $(document).height();
+            next.hide();
+
+            next.slideDown(600);
+
+            var $overlay = $('<div></div>', {
+              'id': 'overlay',
+               css: {
+                   position   : 'absolute',
+                   height     : h + 'px',
+                   width      : w + 'px',
+                   left       : 0,
+                   top        : 0,
+                   background : '#000',
+                   opacity    : 0.5,
+                   zIndex     : 98
+              }
+             }).appendTo('body');
+        };
+
+
+         $(document).click( function (e) {
+            if(!$(e.target).closest('.clickHighlight').length) {
                 $(this).remove();
                 $('#overlay').remove();
                 $('.additionInfo').slideUp(600);
