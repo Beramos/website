@@ -154,7 +154,22 @@ div {
         font-size: 95;
     }
 
+.keywordsPopup {
+        padding-bottom: 10px;
+        font-size: 95;
+    }
+
     .keywords span {
+        color: #545454;
+		font-weight: 700;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+		letter-spacing: -0.01em;
+        font-size: 1.1em;
+		line-height: 1.5em;
+    }
+
+.keywordsPopup span {
         color: #545454;
 		font-weight: 700;
 		line-height: 1em;
@@ -702,7 +717,7 @@ div {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 0.5em 0;
 		padding-left: 1em;
 	}
 
@@ -1643,6 +1658,7 @@ div {
     display: block;
     margin-bottom: 1px;
     font-weight: bold;
+    margin-top: 0px;
 }
 
 #CCIP {
@@ -1676,6 +1692,7 @@ div {
 	left    : 0;
 	z-index  : 99;
 	background-color: #f2f2f2;
+    padding: 10px 10px 10px 10px
 }
 
 .smallContainer {
