@@ -48,7 +48,7 @@ $(document).ready(function() {
               'id': 'overlay',
                css: {
                    position   : 'absolute',
-                   height     : h + 'px',
+                   height     : h + 10 + 'px',
                    width      : w + 'px',
                    left       : 0,
                    top        : 0,
