@@ -1735,7 +1735,6 @@ div {
 	position:relative;
 	padding-bottom:30%;
 	padding-top:0px;
-	height:0;
 	overflow:hidden;
 }
 
@@ -1746,4 +1745,12 @@ div {
 	width:100%;
     height: auto;
     background-color: white;
+}
+
+#document html body {
+    background-color: white;
+}
+video {
+    width: 100%;
+    max-height: 100%;
 }
