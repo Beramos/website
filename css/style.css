@@ -1733,7 +1733,7 @@ div {
 
 .video-container {
 	position:relative;
-	padding-bottom:30%;
+	padding-bottom:0px;
 	padding-top:0px;
 	overflow:hidden;
 }
