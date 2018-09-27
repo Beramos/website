@@ -32,6 +32,14 @@ div div.location {
     color: grey!important;
 }
 
+span.interact {
+	display: block;
+}
+
+section#CVBody {
+    padding-bottom: 0px;
+}
+
 /*
 .col-sm-9 {
     width: 75%;

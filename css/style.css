@@ -1754,3 +1754,7 @@ div div div.location {
 div .keywords p{
 	margin-right: 90px;
 }
+
+span.interact {
+	display: none;
+}
