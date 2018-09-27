@@ -1,4 +1,4 @@
-7@page {
+@page {
     size: auto;   /* auto is the initial value */
     margin: 0;  /* this affects the margin in the printer settings */
 }
@@ -14,7 +14,7 @@
 }
 
 p {
-    font-size: 50%;
+    font-size: 80%;
     line-height: 18px;
 }
 
@@ -24,11 +24,12 @@ p {
 }
 
 .categoryRight div .date {
-    font-size: 50%;
+    font-size: 80%;
 }
 
-.location {
-    font-size: 50%;
+div div.location {
+    font-size: 80%;
+    color: grey!important;
 }
 
 /*
@@ -48,6 +49,36 @@ div .rightbar {
     padding-right: 20px !important;
 }
 
+section#bannerCV {
+    border-bottom: solid 2px;
+    border-color: lightgrey;
+}
+
+section#warning {
+    display: none;
+}
+
+section#keywords {
+    padding-bottom: 5px;
+}
+
+div.rightbar {
+    margin-top: 5px;
+}
+
+#footer ul.icons {
+    margin-bottom: 5px;
+}
+
+footer#footer{
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+div.HeaderName  {
+    padding-top: 0;
+}
 
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 float: left;
@@ -204,4 +235,8 @@ margin-left: 8.33333333%;
 }
 .col-sm-offset-0 {
 margin-left: 0%;
+}
+
+#bannerCV div.col-sm-offset-2.col-sm-5 {
+    margin-left: 5%;
 }
