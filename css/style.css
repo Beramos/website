@@ -54,10 +54,6 @@ div {
         background: #f0f0f0 url(../images/extra_clean_paper.png);
     }
 
-    .wipWarning{
-
-    }
-
     .sidenav {
         height: 80%;
         width: 0;
@@ -1699,10 +1695,6 @@ div {
     padding-right: 5px;
 }
 
-#keywords {
-    /*padding-left: 1em;*/
-}
-
 .description {
     text-align: justify;
     padding-right: 10px;
@@ -1755,8 +1747,8 @@ video {
     max-height: 100%;
 }
 
-.location {
-	margin-right: 20px;
+div div div.location {
+	padding-right: 20px;
 }
 
 div .keywords p{
