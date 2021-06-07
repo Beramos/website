@@ -78,6 +78,10 @@ div.rightbar {
     margin-bottom: 5px;
 }
 
+#footer ul.icons {
+    display: none;
+}
+
 footer#footer{
     margin: 0;
     padding-top: 0;
